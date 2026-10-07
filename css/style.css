@@ -1,6 +1,23 @@
 .NavBarTittle{
+    text-align: left;
     font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 21px;
     font-style: bold;
     color: #0A1222;
 }
+.NavLinks{
+    list-style-type: none;
+    margin: 6px;
+    padding: 0px;
+    text-decoration: none;
+}
+.NavLinks > li > a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+.NavLinks > li >a:hover{
+    color: #034BFF;
+    text-decoration: underline;
+}
+.Nav
