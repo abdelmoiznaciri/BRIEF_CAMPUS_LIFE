@@ -7,7 +7,7 @@
     <title>Inscription</title>
 </head>
 <body>
-    <header>
+    <header class="Header">
         <nav class="navbar">
             <h4 class="NavBarTittle">[YouCode]</h4>
             <ul class="NavLinks">
@@ -18,31 +18,39 @@
                 <li><a href="">Conseils aux nouveaux</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
+        </nav>
+        <div class="IconAndButton">
             <img class="SearchIcon" src="assets/icons/search_icon.png">
             <button class="RejoindreButton">Rejoindre l'aventure</button>
-        </nav>
+        </div>
     </header>
 
     <main class="MainText">
         <h5 class="BlueSmallText">TES PREMIERS PAS À YOUCODE</h5>
         <h1 class="ThickBigText">Ton aventure commence par une rencontre</h1>
-        <form action="">
-            <label for="fName">Nom</label><br><br>
-            <input type="text" name="fName"><br><br>
-            <label for="lName">Prenom</label><br><br>
-            <input type="text" name="lName"><br><br>
-            <label for="mail">Email</label><br><br>
-            <input type="text" name="mail"><br><br>
-            <label for="phoneNum">Telephone</label><br><br>
-            <input type="number" name="phoneNum"><br><br>
-        </form><br>
-        <input type="checkbox" name="SafiBox">
-        <label for="SafiBox">Safi</label><br><br>
-        <input type="checkbox" name="YoussoufiaBox">
-        <label for="YoussoufiaBox">Youssofia</label><br><br>
-        <input type="checkbox" name="NadorBox">
-        <label for="NadorBox">Nador</label><br><br>
-        <button type="submit">S'inscrire</button>
+        <div class="Formulaire">
+            <form action="">
+                <label for="fName">Nom</label><br><br>
+                <input type="text" name="fName"><br><br>
+                <label for="lName">Prenom</label><br><br>
+                <input type="text" name="lName"><br><br>
+                <label for="mail">Email</label><br><br>
+                <input type="text" name="mail"><br><br>
+                <label for="phoneNum">Telephone</label><br><br>
+                <input type="number" name="phoneNum"><br><br>
+                <div class="CityCheckBox">    
+                    <input type="checkbox" name="SafiBox">
+                    <label for="SafiBox">Safi</label><br><br>
+                    <input type="checkbox" name="YoussoufiaBox">
+                    <label for="YoussoufiaBox">Youssofia</label><br><br>
+                    <input type="checkbox" name="NadorBox">
+                    <label for="NadorBox">Nador</label><br><br>
+                </div>
+                    <button type="submit">S'inscrire</button>
+            </form><br>
+        </div>
+        
+        
     </main>
 
     <footer>
