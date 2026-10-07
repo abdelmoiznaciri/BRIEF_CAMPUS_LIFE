@@ -1,15 +1,21 @@
+
 .NavBarTittle{
     text-align: left;
-    font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Inter,sans-serif;
     font-size: 21px;
-    font-style: bold;
+    font-weight: bolder;
     color: #0A1222;
 }
 .NavLinks{
+    font-family: Inter,sans-serif;
+    font-size: 10px;
     list-style-type: none;
     margin: 6px;
     padding: 0px;
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .NavLinks > li > a{
     text-decoration: none;
@@ -20,4 +26,29 @@
     color: #034BFF;
     text-decoration: underline;
 }
-.Nav
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.SearchIcon{
+    width: 18px;
+    height: 18px;
+}
+.RejoindreButton{
+    padding: 13px 16px;
+    color: white;
+    background-color: #034BFF;
+    border-radius: 8px;
+}
+.BlueSmallText{
+    color: #034BFF;
+    font-family: Label,sans-serif;
+    font-size: 12px;
+}
+.RejoindreButton:hover{
+    color: white;
+    text-decoration: underline;
+}
