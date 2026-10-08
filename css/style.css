@@ -115,3 +115,89 @@
     text-align: left;
     font-style: italic;
 }
+.FooterTittle{
+    color: white;
+    font-family: Inter,sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    height: 29px;
+    width: 129;
+    padding: 0px 0px 0px 55px;
+}
+.UnderTittleText{
+    color: #818284;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 46px;
+    width: 330px;
+    padding: 0px 0px 30px 55px;
+}
+.FOOTER{
+    background-color: black;
+}
+#Explorer{
+    color: lime;
+    font-size: 13px;
+    height: 17px;
+    width: 58px;
+}
+.Explore>a{
+    flex-direction: column;
+    text-decoration: none;
+    color: #818284;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+    height: 16px;
+    width: 51px;
+}
+#SeRetrouver{
+    color: lime;
+    font-size: 13px;
+    height: 17px;
+    width: 58px;
+}
+.Others>a{
+    flex-direction: column;
+    text-decoration: none;
+    color: #818284;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+    height: 16px;
+    width: 51px;
+}
+.FooterThings{
+    flex-direction: row;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+    justify-content: space-around;
+    gap: 250px;
+}
+
+.Footer{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-right: 180px;
+}
+.FooterUnderText>p{
+    color: #818284;
+    font-family: Inter,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.FooterUnderText{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 10px;
+    gap: 300px;
+}
