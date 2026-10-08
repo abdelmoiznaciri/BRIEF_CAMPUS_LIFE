@@ -201,3 +201,97 @@
     padding-bottom: 10px;
     gap: 300px;
 }
+/* =========================================================================================================================================================================================== */
+.HeroCampusLife{
+    background-color: #08111D;
+    height: 461px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#Campus{
+    color: white;
+    font-size: 76px;
+    font-weight: 700;
+    padding-left: 61px;
+    margin: 40px 20px 0px 0px;
+    font-family: Inter, sans-serif;
+}
+#Life{
+    color: rgb(5, 95, 250);
+    font-size: 88px;
+    font-weight: 800;
+    padding-left: 61px;
+    margin: 0px 20px 0px 0px;
+    font-family: Inter, sans-serif;
+}
+#TextUnderTheBig2{
+    padding-left: 61px;
+    font-style: 26px;
+    font-weight: 800;
+    color: white;
+    font-family: Inter, sans-serif;
+    margin: 0px 20px 10px 0px;
+}
+#HeroCampusLifeText1{
+    color: white;
+    padding-left: 61px;
+    height: 51px;
+    width: 300px;
+    margin: 0px 0px 15px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+}
+
+#HeroCampusLifePetitText{
+    color: white;
+    padding-left: 181px;
+    font-family: Inter, sans-serif;
+    font-size: 11px;
+    margin: 30px 13px 15px 0px;
+}
+.HeroCampusLifeGirlPic{
+    width: 589px;
+    height: 461px;
+}
+.MainIndex{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #08111D;
+}
+.waves{
+    color: #C7F64A;
+    padding-left: 50px;
+}
+.BigText{
+    font-style: Inter,sans-serif;
+}
+.TheBig2{
+    line-height: 1;
+}
+.HeroCampusLifeButtons{
+    padding-left: 61px;
+}
+#ButtonDécouvrirLeCampus{
+    background-color: #034BFF;
+    color: white;
+    border-radius: 8px;
+    padding: 20px 25px;
+    font-size: 12px;
+    font-weight: 700;
+    border-width: 0px;
+}
+#VoirLesEvénements{
+    background-color: #034aff00;
+    color: white;
+    border-radius: 8px;
+    padding: 20px 25px;
+    font-size: 12px;
+    font-weight: 700;
+    border-width: 1px;
+    border-color: rgb(0, 191, 255);
+}
