@@ -295,3 +295,9 @@ body{
     border-width: 1px;
     border-color: rgb(0, 191, 255);
 }
+.dot{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: white;
+}
