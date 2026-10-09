@@ -247,10 +247,10 @@ body{
 
 #HeroCampusLifePetitText{
     color: white;
-    padding-left: 181px;
+    padding-left: 30px;
     font-family: Inter, sans-serif;
     font-size: 11px;
-    margin: 30px 13px 15px 0px;
+    margin: 0;
 }
 .HeroCampusLifeGirlPic{
     width: 589px;
@@ -268,7 +268,7 @@ body{
     padding-left: 50px;
 }
 .BigText{
-    font-style: Inter,sans-serif;
+    font-family: Inter,sans-serif;
 }
 .TheBig2{
     line-height: 1;
@@ -295,9 +295,184 @@ body{
     border-width: 1px;
     border-color: rgb(0, 191, 255);
 }
-.dot{
-    height: 250px;
-    width: 250px;
+.dot1{
+    height: 27px;
+    width: 27px;
     border-radius: 50%;
-    background-color: white;
+    background-color: #B8C9CF;
+    text-align: center;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+.dot2{
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    background-color: #D7C3B6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+.Circles{
+    display: flex;
+    flex-direction: row;
+}
+.CirclesAndText{
+    display: flex;
+    margin: 30px 0px 0px 60px;
+}
+/* ===================================================================================================================================== */
+.ChiffresClés{
+    height: 92px;
+    background-color:white;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px;
+}
+.FirstSign p{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    color: #034BFF;
+}
+.FirstKeyStat{
+    font-family: Inter, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.FirstKeyStat p {
+    margin: 0;
+}
+.StatNumbers{
+    font-size: 26px;
+    font-weight: 800;
+}
+.Separateur{
+    font-size: 30px;
+    font-weight: 500;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 0;
+}
+.StatText{
+    font-size: 11px;
+    font-weight: 400;
+}
+.FirstStat{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+.SecondSign p{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    color: #034BFF;
+}
+.SecondKeyStat{
+    font-family: Inter, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.SecondKeyStat p {
+    margin: 0;
+}
+.SecondStat{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+.ThirdSign p{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    color: #034BFF;
+}
+.ThirdKeyStat{
+    font-family: Inter, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ThirdKeyStat p {
+    margin: 0;
+}
+.ThirdStat{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+.LastSign p{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    color: #034BFF;
+}
+.LastKeyStat{
+    font-family: Inter, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.LastKeyStat p {
+    margin: 0;
+}
+.LastStat{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+/* ===================================================================================================================================== */
+.Campus{
+    background-color: #5E5BFF;
+    height: 282px;
+    padding: 0;
+    margin: 0;
+}
+.YourYouCodeJourney{
+    background-color: #C7F64A;
+    height: 241px;
+    padding: 0;
+    margin: 0;
+}
+.Événements{
+    background-color: red;
+    height: 244px;
+    padding: 0;
+    margin: 0;
+}
+.Témoignage{
+    background-color: #03ffabf2;
+    height: 164px;
+    padding: 0;
+    margin: 0;
 }
